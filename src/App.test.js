@@ -64,17 +64,5 @@ test('Test Add new row function with State update', async () => {
  expect(jest.fn()).toHaveBeenCalledTimes(0);
 });
 
-test('Test Post API call method', async () => {
-  const setInputFields =jest.fn();
-  const postMedication = jest.fn().mockReturnValue({data:true});
-  const response = true;
-  //const inputFields : (useState)=>[useState,setInputFields];
-  //xios.post.mockResolvedValueOnce(response);
-  //const response = { json: jest.fn().mockResolvedValueOnce({message:"Updated Successfully"}) };
-  let inputFieldsdata = { "name": "a", "strength": "t", "frequency": "", "dosageForm": "", "route": "", "duration": "", "startDateTime": "2022-07-29T17:16", "endDateTime": "2022-07-29T17:16", "timeOfMedication": "", "additionalComments": "" };
-  //const data = await PostDataCall([inputFieldsdata],postMedication);
-  
-  expect(data).toBeUndefined();
- expect(postMedication).toHaveBeenCalledTimes(1);
-});
+
 
