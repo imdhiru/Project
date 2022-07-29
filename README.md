@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+#Medication Prescription
+Setup:
+Install node in your System
+After installing, Check version by command:  node -v or npm -v
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
