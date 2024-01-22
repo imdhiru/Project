@@ -1,4 +1,4 @@
-#Medication Prescription
+#Medication Prescription - MAR Record 
 Setup:
 Install node in your System
 After installing, Check version by command:  node -v or npm -v
